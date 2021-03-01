@@ -1,9 +1,56 @@
 body {
-	background: black;
+    font-size: 20px;
+	background: #171717;
+    font-family: 'Handlee', cursive;
 }
 .postcard {
 	background: white;
-	width: 400px;
-	height: 300px;
+	width: 500px;
+	height: 400px;
 	margin: auto;
+}
+.PostcardArriba {
+    padding-top: 5px;
+    overflow: hidden;
+}
+.PostcardArriba img {
+    max-width: 60px;
+    float: right;
+    padding-right: 10px;
+}
+.PostcardArriba h1 {
+    font-size: 32px;
+    padding-left: 10px;
+}
+.PostcardMedio {
+    overflow: hidden;
+    padding: 5px;
+}
+.LeftPart {
+    float: left;
+    width: 50%;
+}
+.RightPart {
+    float: right;
+    width: 50%;
+}
+.RightPart input {
+    display: block;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-family: 'Handlee', cursive;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.PostcardAbajo {
+    padding: 5px;
+    text-align: center;
+}
+.PostcardAbajo input{
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-family: 'Handlee', cursive;
+    background: lightgray;
 }
